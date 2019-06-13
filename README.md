@@ -18,3 +18,8 @@ After you see both process server running on these 2 console/terminals, you can 
 
 ## Example Demo
 
+<img src="https://raw.github.com/slaveofcode/nsq-multi-subscriber/master/example.gif" align="right" />
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
