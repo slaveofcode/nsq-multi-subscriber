@@ -2,7 +2,7 @@
 
 const nsq = require('nsqjs')
 
-const TOPIC = 'MESSAGE'
+const TOPIC = 'MESSAGE_BOOM'
 const CHANNEL = 'MESSAGE_CONSUMER'
 
 const fn = () => {
@@ -11,6 +11,8 @@ const fn = () => {
     lookupdHTTPAddresses: [
       process.env.nsq_lookup_host_1_tcp, // 127.0.0.1:4160
       process.env.nsq_lookup_host_1_http, // 127.0.0.1:4161
+      process.env.nsq_lookup_host_2_tcp, // 127.0.0.1:4160
+      process.env.nsq_lookup_host_2_http, // 127.0.0.1:4161
       // another lookup here...
     ],
   })

@@ -4,6 +4,12 @@ const nsq = require('nsqjs')
 const shortId = require('shortid')
 const delaying = require('delaying')
 
+/**
+ * Running this script by:
+ * 
+ * >> node tool/publisher_simulator.js <nsqd_host> <nsqd_port>
+ */
+
 const TOPIC = 'MESSAGE'
 
 const getArgs = (startFromIdx = 2) => {

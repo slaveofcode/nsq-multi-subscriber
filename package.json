@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server1": "node index.js",
+    "server1": "port=6000 node index.js",
     "server2": "port=6001 node index.js",
+    "server3": "port=6002 node index.js",
+    "server1_multi_lookup": "port=6003 multi_lookup=1 node index.js",
+    "server2_multi_lookup": "port=6004 multi_lookup=1 node index.js",
+    "server3_multi_lookup": "port=6005 multi_lookup=1 node index.js",
+    "server4_multi_lookup": "port=6006 multi_lookup=1 node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

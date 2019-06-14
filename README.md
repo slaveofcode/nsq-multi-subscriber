@@ -6,7 +6,7 @@ This is a simple project which simulate the process of multiple NSQ subscribers.
 ## Installation
 1. Run the `nsqd` & `nsqlookupd` daemon process on your machine (see: [nsq.io](https://nsq.io))
 2. Clone this project and run `npm i` or `npm install` to install module dependencies
-3. Make copy of `.env.example` with a new name called `.env` then configure the environment variables inside, including the nsqd address.
+3. Make copy of `.env.example` with a new name called `.env` then configure the environment variables inside, for the nsqlookupd address(es).
 4. Run the server by execute `npm run server1` to start **server1**
 5. Open new console/terminal then execute `npm run server2` to start **server2**
 6. Now you have 2 different running process, which is subscribed to `MESSAGE` topic in NSQ.
